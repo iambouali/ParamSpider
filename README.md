@@ -74,7 +74,7 @@ Here are a few examples of how to use `paramspider`:
 - Disable updating parameter values with a placeholder:
 
  ```sh
-   paramspider -d example.com -db'
+   paramspider -d example.com -db
 ```
 
 ## Contributing
