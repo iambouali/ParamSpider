@@ -147,7 +147,7 @@ def main():
     parser.add_argument("-s", "--stream", action="store_true", help="Stream URLs on the terminal.")
     parser.add_argument("--proxy", help="Set the proxy address for web requests.", default=None)
     parser.add_argument("-p", "--placeholder", help="Placeholder for parameter values", default="FUZZ")
-    parser.add_argument("-db", "--disable-placeholder", action="store_true", help="Disable updating parameter values with the default placeholder.")
+    parser.add_argument("-db", "--disable-placeholder", action="store_true", help="Disable updating parameter values with a placeholder.")
     args = parser.parse_args()
 
     if not args.domain and not args.list:
